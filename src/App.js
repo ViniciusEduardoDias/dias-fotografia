@@ -1,9 +1,11 @@
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
+import { Header, Footer, Sobre, Container } from "./components";
 function App() {
   return (
     <>
-      <Nav></Nav>
+      <Header />
+      <Container>
+        <Sobre />
+      </Container>
       <Footer></Footer>
     </>
   );

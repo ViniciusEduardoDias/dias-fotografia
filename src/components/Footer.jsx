@@ -3,7 +3,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-gray-300 py-6 mt-12">
+    <footer className="bg-gray-800 mx-auto text-gray-300 py-6 mt-12">
       <section
         id="contact"
         className="my-8 md:my-0 flex flex-col items-center justify-center gap-10 p-6"
