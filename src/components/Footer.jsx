@@ -3,14 +3,15 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 mx-auto text-gray-300 py-6 mt-12">
+    <footer className="bg-gray-800 mx-auto text-gray-300 py-6">
       <section
         id="contact"
-        className="my-8 md:my-0 flex flex-col items-center justify-center gap-10 p-6"
+        className="my-8 md:my-0 flex flex-col items-center justify-center gap-4 p-6"
       >
         <h2 className="text-3xl font-semibold text-gray-100">
           Entre em Contato
         </h2>
+        <h3>Venha fazer seu orçamento e me siga no Instagram!</h3>
         <div className="flex gap-6">
           <a
             href="https://wa.me/5519982467708"
