@@ -9,7 +9,7 @@ const Footer = () => {
         className="my-8 md:my-0 flex flex-col items-center justify-center gap-4 p-6"
       >
         <h2 className="text-3xl font-semibold text-gray-100">
-          Entre em Contato
+          Entre em contato comigo!
         </h2>
         <h3>Venha fazer seu orçamento e me siga no Instagram!</h3>
         <div className="flex gap-6">

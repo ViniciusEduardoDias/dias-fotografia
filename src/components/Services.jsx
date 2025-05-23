@@ -5,6 +5,8 @@ import {
   FaHeart,
   FaUsers,
 } from "react-icons/fa";
+import { AiFillProduct } from "react-icons/ai";
+import Carrossel from "./Carrossel";
 
 const Services = () => {
   const servicos = [
@@ -39,12 +41,20 @@ const Services = () => {
         "Fotos espontâneas e divertidas para comemorar a vida. Eternize cada ano, cada jornada.",
       icone: <FaBirthdayCake size={40} />,
     },
+    {
+      id: 6,
+      nome: "Produtos | Catálogo",
+      descricao:
+        "Captura de imagens de alta qualidade, com técnicas adequadas, que apresentam produtos de forma clara, atraente e informativa, visando estimular o desejo de compra dos clientes",
+      icone: <AiFillProduct size={40} />,
+    },
   ];
 
   return (
     <section id="services" className="py-16 px-4">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">Meus Serviços</h2>
+        <Carrossel />
         <p className="text-gray-600 mb-12">
           Escolha o tipo de ensaio ou evento para conferir um pouco do meu
           trabalho e vamos eternizar seus momentos!
