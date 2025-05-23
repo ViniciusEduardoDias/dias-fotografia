@@ -5,3 +5,20 @@
 /* no index.css ou App.css */
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+
+/* styles/carrossel.css */
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000; /* muda a cor dos ícones aqui */
+  font-size: 30px; /* se quiser aumentar o tamanho */
+}
+.slick-prev {
+  left: -35px; /* ou outro valor pra afastar mais da imagem */
+  z-index: 10;
+}
+
+.slick-next {
+  right: -35px;
+  z-index: 10;
+}
