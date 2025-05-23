@@ -7,9 +7,15 @@ export default function Header() {
         </h1>
       </div>
       <ul className="flex gap-4">
-        <li className="text-xl hover:text-gray-600 cursor-pointer">Sobre</li>
-        <li className="text-xl hover:text-gray-600 cursor-pointer">Contato</li>
-        <li className="text-xl hover:text-gray-600 cursor-pointer">Serviços</li>
+        <li className="text-xl hover:text-gray-600 cursor-pointer">
+          <a href="#about">Sobre</a>
+        </li>
+        <li className="text-xl hover:text-gray-600 cursor-pointer">
+          <a href="#services">Serviços</a>
+        </li>
+        <li className="text-xl hover:text-gray-600 cursor-pointer">
+          <a href="#contact">Contato</a>
+        </li>
       </ul>
     </header>
   );
