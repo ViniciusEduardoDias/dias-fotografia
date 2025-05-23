@@ -43,7 +43,7 @@ const Carrossel = () => {
   };
 
   return (
-    <section className="py-12 bg-gray-100">
+    <section className="py-12 px-8 bg-gray-100">
       <div className="max-w-4xl mx-auto">
         <Slider {...settings}>
           {fotos.map((foto) => (

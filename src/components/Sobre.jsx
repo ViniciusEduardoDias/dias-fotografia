@@ -1,7 +1,7 @@
 export default function Sobre() {
   return (
     <main className="w-full md:max-w-[900px] m-auto flex flex-col md:flex-row gap-6 items-center justify-center">
-      <div className="max-w-[60%]">
+      <div className="w-full p-4 md:max-w-[60%]">
         {/* <h2 className="text-4xl font-semibold my-4">Sobre mim</h2> */}
         <p className="text-justify text-xl">
           Olá, é um prazer te receber aqui! Me chamo Vinicius Dias e atuo no

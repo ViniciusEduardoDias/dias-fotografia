@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="flex p-4 justify-evenly items-center">
+    <header className="flex flex-col sm:flex-row p-4 gap-4 justify-evenly items-center">
       <div>
         <h1>
           <img className="w-[250px]" src="logo.png" alt="" />
